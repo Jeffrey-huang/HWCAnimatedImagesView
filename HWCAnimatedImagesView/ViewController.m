@@ -20,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.array = @[@"1.png",@"2.png",@"3.png"];
+    // test commit
     // Do any additional setup after loading the view, typically from a nib.
     self.animatedImagesView = [[HWCAnimatedImagesView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
     
